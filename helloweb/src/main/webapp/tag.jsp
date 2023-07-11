@@ -32,7 +32,7 @@
 		</tr>
 	</table>
 	
-	<%-- /는 최상위 경로 --%>
+	<%-- /는 최상위 경로 = webapp --%>
 	<img src="/helloweb/assets/images/mmzero_wallpaper.jpg" style="width:400px;">
 	<p>
 		문장입니다.<br>
