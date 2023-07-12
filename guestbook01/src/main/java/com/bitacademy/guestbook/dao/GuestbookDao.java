@@ -153,7 +153,7 @@ public class GuestbookDao {
 			String url = "jdbc:mariadb://192.168.0.162:3306/webdb?charset=utf8";
 			conn = DriverManager.getConnection(url, "webdb", "webdb");
 
-			String sql = "select no, name, message, reg_date from guestbook";
+			String sql = "select no, name, message, reg_date from guestbook order by no desc";
 			pstmt = conn.prepareStatement(sql);
 
 			rs = pstmt.executeQuery();
